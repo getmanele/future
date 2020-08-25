@@ -24,7 +24,7 @@ function scripts() {
     src([
       /*"node_modules/jquery/dist/jquery.min.js", */
       "app/js/app.js",
-      "app/js/tabs.js",
+      // "app/js/tabs.js",
     ])
       .pipe(concat("app.min.js"))
       // .pipe(uglify())

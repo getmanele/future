@@ -1,4 +1,5 @@
 # future
+
 Тестовое задание
 
 Future
@@ -8,6 +9,6 @@ Front-end developer junior Rostislav D.
 Development
 
 Install Node.js.
-Run npm install to install dependencies.
-Run gulp to start local server.
-Run gulp build to build.
+Run <code>npm install</code> to install dependencies.
+Run <code>gulp</code> to start local server.
+Run <code>gulp build</code> to build.

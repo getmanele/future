@@ -29,7 +29,7 @@
         if (key === name) {
           button.setAttribute("tabindex", "0");
         } else {
-          button.setAttribute("tabindex", "-2");
+          button.setAttribute("tabindex", "-1");
         }
 
         button.setAttribute("aria-selected", key === name);
