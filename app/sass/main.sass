@@ -1766,7 +1766,7 @@ ul
             background: linear-gradient(90deg, #8c84f9, #a165f4)
 
         #fb, #google, #instagram, #twitter
-            fill: #fff
+            // fill: #fff
 
         a
             display: -webkit-box
@@ -1809,9 +1809,9 @@ ul
 
 @media only screen and (max-width: 1100px)
     .our_brands .our_brands__title
-        max-width: 440px
+        max-width: 768px
 
-@media only screen and (max-width: 1000px)
+@media only screen and (max-width: 1100px)
     .our_brands
         background-position: top 16% right 53%, top right 29%
         padding-bottom: 50px
@@ -1822,6 +1822,10 @@ ul
 
     h2, .our_brands__classic-shoes
         text-align: center
+        display: flex
+        flex-direction: column
+        span
+            margin-bottom: 25px
 
 .our_showcase .our_showcase__wrapper .our_showcase__h2
     margin-bottom: 40px
@@ -1856,6 +1860,10 @@ ul
     .our_brands
         padding: 0 30px 50px
         background-position: top 16% right 32%, top right 29%
+
+    .our_brands__classic-shoes span, h2 span
+        font-size: 95px
+        line-height: 95px
 
 @media only screen and (max-width: 600px)
     .header .header__top
@@ -1909,6 +1917,10 @@ ul
     .header .header__title .sale
         margin-left: 0
 
+    .our_brands__classic-shoes span, h2 span
+        font-size: 70px
+        line-height: 75px
+
     .Newsletter__input-mail .btn
         position: absolute
         top: 60px
@@ -1917,3 +1929,7 @@ ul
         -webkit-box-shadow: 0 0 50px rgba(237, 235, 253, 0.75)
         box-shadow: 0 0 50px rgba(237, 235, 253, 0.75)
         border: 2px solid #fff
+
+    @media only screen and (max-width: 419px)
+        .bigShop .menu
+            padding-left: 0px

@@ -1943,12 +1943,6 @@ ul a:hover {
   background: -webkit-gradient(linear,left top,right top,from(#8c84f9),to(#a165f4));
   background: linear-gradient(90deg,#8c84f9,#a165f4)
 }
-.socIcons li #fb,
-.socIcons li #google,
-.socIcons li #instagram,
-.socIcons li #twitter {
-  fill: #fff
-}
 .socIcons li a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1991,10 +1985,10 @@ ul a:hover {
 }
 @media only screen and (max-width:1100px) {
   .our_brands .our_brands__title {
-    max-width: 440px
+    max-width: 768px
   }
 }
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:1100px) {
   .our_brands {
     background-position: top 16% right 53%,top right 29%;
     padding-bottom: 50px
@@ -2005,7 +1999,18 @@ ul a:hover {
   }
   .our_brands__classic-shoes,
   h2 {
-    text-align: center
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+  }
+  .our_brands__classic-shoes span,
+  h2 span {
+    margin-bottom: 25px
   }
 }
 .our_showcase .our_showcase__wrapper .our_showcase__h2 {
@@ -2040,6 +2045,11 @@ ul a:hover {
   .our_brands {
     padding: 0 30px 50px;
     background-position: top 16% right 32%,top right 29%
+  }
+  .our_brands__classic-shoes span,
+  h2 span {
+    font-size: 95px;
+    line-height: 95px
   }
 }
 @media only screen and (max-width:600px) {
@@ -2094,6 +2104,11 @@ ul a:hover {
   .header .header__title .sale {
     margin-left: 0
   }
+  .our_brands__classic-shoes span,
+  h2 span {
+    font-size: 70px;
+    line-height: 75px
+  }
   .Newsletter__input-mail .btn {
     position: absolute;
     top: 60px;
@@ -2101,5 +2116,10 @@ ul a:hover {
     -webkit-box-shadow: 0 0 50px rgba(237,235,253,.75);
     box-shadow: 0 0 50px rgba(237,235,253,.75);
     border: 2px solid #fff
+  }
+}
+@media only screen and (max-width:520px) and (max-width:419px) {
+  .bigShop .menu {
+    padding-left: 0
   }
 }
